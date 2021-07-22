@@ -9,6 +9,7 @@ class BasicString
 		@sentence.include? test_word
 	end 
 
+
 	def contains_word_ignorecase?(test_word)
 		test_word = test_word.downcase
 		@sentence.downcase.include? test_word 
